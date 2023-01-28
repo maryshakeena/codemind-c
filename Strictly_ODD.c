@@ -8,7 +8,7 @@ int main()
     {
         scanf("%d",&a[i]);
     }
-    if(a[n]%2!=0)
+    if(a[i]%2!=0)
     {
         printf("True");
     }
