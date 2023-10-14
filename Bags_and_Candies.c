@@ -3,13 +3,12 @@ int main()
 {
     int n,k,m;
     scanf("%d%d%d",&n,&k,&m);
-    int cpb=k*m;
-    if(n%cpb==0)
+    int c=k*m;
+    if(n%c==0)
     {
-        printf("%d",n/cpb);
+        printf("%d",n/c);
     }
-    else
-    {
-        printf("%d",n/cpb+1);
+    else{
+        printf("%d",n/c+1);
     }
 }
